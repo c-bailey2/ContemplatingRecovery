@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Martel Sans', sans-serif;
+	color: #333333;
+	background-color: black;
+}
+
+.background {
+	width: 100%;
+}
+
+.section {
+	display: block;
+	width: 100%;
+	min-height: 100px;
+	position: relative;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#sectvideo {
+	text-align: center;
+	background-color: black;
+}
+
+#sectvideo > h1 {
+	font-size: 1.5em;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	font-weight: 200;
+}
+
+.textbox {
+	background-color: rgb(255,255,255,0.7);
+	padding: 0.3em 1em;
+	border-radius: 0.5em;
+}
+
+#sect1 > .textbox {
+	position: absolute;
+	top: 5%;
+	left: -1em;
+	padding-left: 2em;
+	padding-right: 5em;
+}
+
+#sect1 > .textbox > p {
+	margin-left: 1em;
+	width: 40em;
+}
+
+#sectgrad {
+	background-image: url(images/2016commencementdarker.png);
+	padding-top: 1em;
+	padding-bottom: 6em;
+	/*display: relative;*/
+}
+
+#sectgrad > .textbox {
+	display: inline-block;
+	width: 45%;
+	margin-left: 1.75em;
+	margin-top: 2.5em;
+}
+
+#sectidentity > .textbox {
+	position: absolute;
+	top: 2em;
+	left: 30%;
+	width: 45%;
+}
+
+#facegif {
+	position: absolute;
+	right: 2em;
+	width: 25%;
+	top: 10em;
+}
+
+#mirrorselfie {
+	position: absolute;
+	left: 2.5em;
+	top: 1em;
+	width: 30%;
+}
+
+#eyeball {
+	position: absolute;
+	top: -1em;
+	right: 13em;
+	width: 14%;
+}
+
+#scorpion {
+	position: absolute;
+	left: -2em;
+	bottom: 8em;
+	width: 25%;
+}
+
+#stripes {
+	position: absolute;
+	right: -22em;
+	width: 65%;
+	bottom: -17em;
+	transform: rotate(200deg);
+}
+
+#stack {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%
+}
+
+#sectgrad > img {
+	float: left;
+	width: 45%;
+	margin: 1em;
+}
+
+#binder {
+	position: absolute;
+	top: 8em;
+	right: 21em;
+	width: 30%;
+	transform: rotate(-13deg);
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #333333;
+	margin-bottom: 0.2em;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 1em;
+	line-height: 1.3em;
+	margin-bottom: 0;
+}
+
+.textbox > h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-left: 2em;
+	margin-top: 0;
+}
+
+p {
+	font-weight: 300;
+	line-height: 1.2em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+pre {
+	font-family: 'Martel Sans', sans-serif;
+	margin-left: 0;
+	line-height: 1.2em;
+}
+
+#sectpretty > .textbox {
+	position: absolute;
+	left: 10em;
+	top: 5em;
+	width: 45%;
+	margin-bottom: 1em;
+}
+
+#sectpretty {
+	padding-bottom: 28em;
+}
+
+#sectSophie > .textbox {
+	position: absolute;
+	top: 2em;
+	left: 40%;
+	width: 40%;
+}
+
+#sophie {
+	position: absolute;
+	top: 7em;
+	left: 2em;
+	width: 30%;
+}
+
+#doodle {
+	position: absolute;
+	left: -10em;
+	top: -2em;
+	width: 50%;
+	transform: rotate(5deg);
+}
+
+#rectangles {
+	position: absolute;
+	right: -5em;
+	bottom: 0;
+	width: 50%;
+	opacity: 0.8;
+	transform: rotate(10deg);
+}
+
+.first-button {
+	background-color: white;
+	opacity: .5;
+	border-style: none;
+	border-radius: 10px;
+	padding: 1em;
+	font-size: 1em;
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.first-button:hover {
+	opacity: .6;
+}
+
+#door {
+	width: 100%;
+	text-align: center;
+	padding-top: 3em;
+}
+
+#door p {
+	text-align: justify;
+	margin: .5em 2em;
+}
