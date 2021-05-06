@@ -176,14 +176,42 @@ pre {
 	padding-bottom: 28em;
 }
 
-#sectgirlinterrupted {
+#sectgirlinterrupted, #sectsunlight {
 	height: 30em;
 	color: white;
 	padding-left: 3em;
 	width: 85%;
 }
 
-#sectgirlinterrupted > h1 {
+#sectsunlight {
+	height: 10em;
+	width: 60%
+}
+
+#tents {
+	position: absolute;
+	left: 40%;
+	bottom: -10em;
+	width: 60%;
+	transform: rotate(210deg);
+}
+
+#swirls {
+	position: absolute;
+	right: 2em;
+	top: -4em;
+	width: 50%;
+}
+
+#blob {
+	position: absolute;
+	left: -23em;
+	width: 50%;
+	top: 14em;
+	transform: rotate(-14deg);
+}
+
+#sectgirlinterrupted > h1, #sectsunlight > h1 {
 	color: white;
 	font-weight: 200;
 }
