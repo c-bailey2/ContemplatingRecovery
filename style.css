@@ -176,6 +176,30 @@ pre {
 	padding-bottom: 28em;
 }
 
+#sectgirlinterrupted {
+	height: 30em;
+	color: white;
+	padding-left: 3em;
+	width: 85%;
+}
+
+#sectgirlinterrupted > h1 {
+	color: white;
+	font-weight: 200;
+}
+
+#sectgirlinterrupted > h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+#sectBPD > .textbox {
+	position: absolute;
+	left: 15em;
+	top: 4em;
+	width: 50%;
+}
+
 #sectSophie > .textbox {
 	position: absolute;
 	top: 2em;
